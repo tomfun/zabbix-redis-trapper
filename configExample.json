@@ -1,0 +1,11 @@
+{
+  "zabbix_server": "178.169.48.125",
+  "zabbix_port": "10051",
+  "zabbix_agent_hostname": "test",
+  "redis_clients_connected": 120,
+  "redis_commands_processed": 120,
+  "redis_max_command_duration": 60,
+  "redis_max_command_duration_clear_after_send": true,
+  "redis_stats_keys": 600,
+  "redis_used_memory": 120
+}
