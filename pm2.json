@@ -1,0 +1,17 @@
+{// http://pm2.keymetrics.io/docs/usage/application-declaration/
+  "apps": [
+    {
+      "name": "zabbix-redis-trapper",
+      "script": "./index.js",
+      "watch": false,
+      "node_args": "--harmony",
+      "merge_logs": true,
+      "error_file": "./error.log",
+      "out_file": "./out.log",
+      "max_memory_restart": "250M",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
